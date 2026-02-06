@@ -1,5 +1,5 @@
-import productData from '../../product.json'
 import { ShoppingCart, Star } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 interface Product {
     id: number;
@@ -16,9 +16,29 @@ interface Product {
     reviews: number;
 }
 
-const products = productData.products;
-
 const HomePage = () => {
+    const [products, setProducts] = useState<Product[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchProducts = async () => {
+            try {
+                const response = await fetch('http://localhost:5000/api/products');
+                const data = await response.json();
+                setProducts(data);
+                setLoading(false);
+            } catch (error) {
+                console.error('Error fetching products:', error);
+                setLoading(false);
+            }
+        };
+
+        fetchProducts();
+    }, []);
+
+    if (loading) {
+        return <div className="flex justify-center items-center h-screen">Loading...</div>;
+    }
     return (
         <div className='min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8'>
             <div className="max-w-7xl mx-auto">
