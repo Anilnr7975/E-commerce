@@ -5,11 +5,22 @@
       "name": "Classic Cotton T-Shirt",
       "category": "Men",
       "subcategory": "T-Shirts",
-      "price": 24.99,
+      "price": 24,
       "description": "Comfortable 100% cotton t-shirt perfect for everyday wear. Breathable fabric with a classic fit.",
       "image": "/images/products/tshirt-white.jpg",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "colors": ["White", "Black", "Navy", "Gray"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White",
+        "Black",
+        "Navy",
+        "Gray"
+      ],
       "stock": 150,
       "rating": 4.5,
       "reviews": 342
@@ -22,8 +33,18 @@
       "price": 59.99,
       "description": "Stylish slim fit jeans with stretch denim for maximum comfort. Features a mid-rise waist and classic 5-pocket design.",
       "image": "/images/products/jeans-blue.jpg",
-      "sizes": ["26", "28", "30", "32", "34"],
-      "colors": ["Dark Blue", "Light Blue", "Black"],
+      "sizes": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "colors": [
+        "Dark Blue",
+        "Light Blue",
+        "Black"
+      ],
       "stock": 85,
       "rating": 4.7,
       "reviews": 218
@@ -36,8 +57,19 @@
       "price": 45.99,
       "description": "Cozy fleece-lined hoodie with adjustable drawstring and kangaroo pocket. Perfect for casual wear.",
       "image": "/images/products/hoodie-gray.jpg",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "colors": ["Gray", "Black", "Burgundy", "Navy"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Gray",
+        "Black",
+        "Burgundy",
+        "Navy"
+      ],
       "stock": 120,
       "rating": 4.6,
       "reviews": 456
@@ -50,8 +82,18 @@
       "price": 69.99,
       "description": "Light and airy summer dress with beautiful floral print. Features a flattering A-line silhouette and adjustable straps.",
       "image": "/images/products/dress-floral.jpg",
-      "sizes": ["XS", "S", "M", "L", "XL"],
-      "colors": ["Floral Blue", "Floral Pink", "Floral Yellow"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Floral Blue",
+        "Floral Pink",
+        "Floral Yellow"
+      ],
       "stock": 45,
       "rating": 4.8,
       "reviews": 167
@@ -64,8 +106,16 @@
       "price": 199.99,
       "description": "Premium genuine leather jacket with classic biker style. Features multiple pockets and a comfortable inner lining.",
       "image": "/images/products/jacket-leather.jpg",
-      "sizes": ["M", "L", "XL", "XXL"],
-      "colors": ["Black", "Brown"],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black",
+        "Brown"
+      ],
       "stock": 32,
       "rating": 4.9,
       "reviews": 89
@@ -78,8 +128,18 @@
       "price": 34.99,
       "description": "Moisture-wicking athletic shorts with built-in liner. Lightweight and breathable for intense workouts.",
       "image": "/images/products/shorts-athletic.jpg",
-      "sizes": ["S", "M", "L", "XL"],
-      "colors": ["Black", "Navy", "Red", "Green"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Red",
+        "Green"
+      ],
       "stock": 200,
       "rating": 4.4,
       "reviews": 523
@@ -92,8 +152,19 @@
       "price": 54.99,
       "description": "Soft knit cardigan with button closure. Perfect layering piece for transitional weather.",
       "image": "/images/products/cardigan-beige.jpg",
-      "sizes": ["XS", "S", "M", "L", "XL"],
-      "colors": ["Beige", "Cream", "Charcoal", "Dusty Rose"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Beige",
+        "Cream",
+        "Charcoal",
+        "Dusty Rose"
+      ],
       "stock": 67,
       "rating": 4.6,
       "reviews": 203
@@ -106,8 +177,19 @@
       "price": 49.99,
       "description": "Versatile cotton chino pants with a tailored fit. Suitable for both casual and semi-formal occasions.",
       "image": "/images/products/chinos-khaki.jpg",
-      "sizes": ["30", "32", "34", "36", "38"],
-      "colors": ["Khaki", "Navy", "Olive", "Gray"],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        "Khaki",
+        "Navy",
+        "Olive",
+        "Gray"
+      ],
       "stock": 95,
       "rating": 4.5,
       "reviews": 287
@@ -120,8 +202,19 @@
       "price": 39.99,
       "description": "High-waisted yoga leggings with four-way stretch and moisture control. Non-see-through fabric with flattering compression.",
       "image": "/images/products/leggings-black.jpg",
-      "sizes": ["XS", "S", "M", "L", "XL"],
-      "colors": ["Black", "Navy", "Purple", "Teal"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Purple",
+        "Teal"
+      ],
       "stock": 175,
       "rating": 4.7,
       "reviews": 612
@@ -134,8 +227,20 @@
       "price": 39.99,
       "description": "Classic pique polo shirt with three-button placket and ribbed collar. Timeless style for any occasion.",
       "image": "/images/products/polo-navy.jpg",
-      "sizes": ["S", "M", "L", "XL", "XXL"],
-      "colors": ["Navy", "White", "Black", "Red", "Green"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Navy",
+        "White",
+        "Black",
+        "Red",
+        "Green"
+      ],
       "stock": 140,
       "rating": 4.6,
       "reviews": 394
